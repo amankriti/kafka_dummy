@@ -23,7 +23,6 @@ public class IgniteConsumerImpl extends UnicastRemoteObject implements IgniteCon
 			Registry registry = LocateRegistry.getRegistry("localhost", 1099);
 			Ignite ignite = (Ignite) registry.lookup("Ignite");
 
-			// Initialize consumer
 			IgniteConsumerImpl consumer = new IgniteConsumerImpl();
 			Scanner scanner = new Scanner(System.in);
 

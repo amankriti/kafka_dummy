@@ -21,7 +21,6 @@ public class IgniteProducerImpl extends UnicastRemoteObject implements IgnitePro
 			Registry registry = LocateRegistry.getRegistry("localhost", 1099);
 			Ignite ignite = (Ignite) registry.lookup("Ignite");
 
-			// Initialize producer
 			IgniteProducerImpl producer = new IgniteProducerImpl();
 			Scanner scanner = new Scanner(System.in);
 

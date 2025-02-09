@@ -77,7 +77,10 @@ Enter message: Order ID 123
 [Consumer] Received message from orders: Order ID 123
 [Producer] Received response from orders: Processed: Order ID 123
 
-Troubleshooting
+
+
+
+Troubleshooting(Optinal, if you are geeting errors)
 
 java.rmi.NotBoundException: Ignite
 
